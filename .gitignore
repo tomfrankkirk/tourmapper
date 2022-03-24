@@ -1,0 +1,11 @@
+.DS_Store
+*.csv
+*.html
+*.gpx
+*egg-info
+*.egg
+.vscode
+__pycache__
+.ipynb_checkpoints
+build
+dist 
