@@ -206,9 +206,4 @@ def make_map(gps_dir, map_params={}, outpath=None, image_dir=None,
 
 if __name__ == '__main__': 
 
-    gps_dir = 'rides'
-    image_dir = '/Users/thomaskirk/Jobs/personal_git/assets/images/scotland'
-    remote_url = "https://tomfrankkirk.github.io/assets/images/scotland"
-
-    make_map(gps_dir, image_dir=image_dir, 
-                            remote_image_url=remote_url)
+    pass 
