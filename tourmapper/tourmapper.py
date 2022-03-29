@@ -9,7 +9,7 @@ import geopandas as gpd
 import gpxpy
 import numpy as np
 from folium import plugins
-from pillow import Image
+from PIL import Image
 
 B64_LOAD_PATH = op.join(op.dirname(__file__), 'map_helpers', 'load_image_b64.js') 
 POPUP_PATH = op.join(op.dirname(__file__), 'map_helpers', 'popup_handler.js') 
