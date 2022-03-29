@@ -1,1 +1,1 @@
-from tourmapper import *
+from .tourmapper import * 
