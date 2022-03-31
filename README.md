@@ -6,8 +6,10 @@ This is a script for generating maps from GPS tracking data and geo-tagged image
 
 ## Installation 
 
+Download this repo, cd into it, and then 
+
 ```
-pip install tourmapper
+pip install . 
 ```
 
 ## Usage 
