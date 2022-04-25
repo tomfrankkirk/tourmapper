@@ -9,10 +9,8 @@ This is a script for generating interactive maps from GPS tracking data and geo-
 
 ## Installation 
 
-Download this repo, cd into it, and then 
-
 ```
-pip install . 
+pip install tourmapper 
 ```
 
 ## Usage 

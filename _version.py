@@ -1,2 +1,2 @@
-__version__ = '0.1.0.post1'
-__timestamp__ = 'Thu Mar 31 16:19:14 2022 +0100'
+__version__ = '0.1.0.post2'
+__timestamp__ = 'Mon Apr 25 15:43:02 2022 +0100'
