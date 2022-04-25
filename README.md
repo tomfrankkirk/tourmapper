@@ -13,6 +13,12 @@ This is a script for generating interactive maps from GPS tracking data and geo-
 pip install tourmapper 
 ```
 
+If you get an installation error along the lines of 
+```
+proj executable not found. Please set the PROJ_DIR variable. For more information see: https://pyproj4.github.io/pyproj/stable/installation.html
+```
+then there is an issue installing the `pyproj` package via pip. Installation via conda-forge may help correct this (`conda install -c conda-forge pyproj`), then re-attempt the original `pip install tourmapper`. Alternatively, [build pyproj from source](https://pyproj4.github.io/pyproj/stable/installation.html).  
+
 ## Usage 
 
 The script wraps [Folium](http://python-visualization.github.io/folium/modules.html#module-folium.map) / [Leaflet](https://leafletjs.com/SlavaUkraini/reference.html), a very sophisticated library for producing interactive maps. Map generation is done using the `tourmapper.make_map()` function using the following arguments. There is some customisation that is possible, but for full control you may want to use those libraries directly (or edit this script). 
