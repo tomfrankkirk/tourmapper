@@ -22,9 +22,11 @@ def get_img_latlong(img):
     and will be returned as a tuple of decimal floats. 
     """
 
-    GPSInfo = 34853
     exif = img._getexif()
-    gps = exif[GPSInfo]
+    try: 
+        gps = exif[34853]
+    except KeyError as e: 
+        raise ValueError(f"Could not extract GPS tags from {img.filename}", str(e))
 
     if (gps[1] not in ['N','S']) or (gps[3] not in ['E','W']):
         raise ValueError("GPS data not in (N,E) format")  
